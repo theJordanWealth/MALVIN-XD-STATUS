@@ -13,7 +13,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "malvin~w6U1gLzJ#50L5c4VFNznfN4Agv2BP69kseoGG-zDBDXQigAn33Ss", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
@@ -22,15 +22,15 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys", // Baileys version
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857", // Owner WhatsApp number
-  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ᴍᴀʟᴠɪɴ ᴋɪɴɢ", // Owner name
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "233201103124", // Owner WhatsApp number
+  OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "SHALOM", // Owner name
   DEV: process.env.DEV || "263714757857", // Developer contact number
   DEVELOPER_NUMBER: '263714757857@s.whatsapp.net', // Developer WhatsApp ID
 
   // ===== AUTO-RESPONSE SETTINGS =====
   AUTO_REPLY: process.env.AUTO_REPLY || "false", // Enable auto-reply
   AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false", // Reply to status updates?
-  AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*Just seen ur status 😆 🤖*", // Status reply message
+  AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "", // Status reply message
   READ_MESSAGE: process.env.READ_MESSAGE || "false", // Mark messages as read automatically?
   REJECT_MSG: process.env.REJECT_MSG || "*📵 Calls are not allowed on this number unless you have permission. 🚫*", // Message on rejected call
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
@@ -57,7 +57,7 @@ module.exports = {
   ANTI_DELETE: process.env.ANTI_DELETE || "true", // Recover deleted messages
   ANTI_CALL: process.env.ANTI_CALL || "false", // Automatically reject calls
   ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false", // Block bad words
-  ANTI_LINK: process.env.ANTI_LINK || "true", // Block links in groups
+  ANTI_LINK: process.env.ANTI_LINK || "false", // Block links in groups
   ANTI_VV: process.env.ANTI_VV || "true", // Block view-once messages
   DELETE_LINKS: process.env.DELETE_LINKS || "false", // Auto-delete links
   ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // Where to log deleted messages ('inbox' or 'same')
